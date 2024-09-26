@@ -1,0 +1,4 @@
+numpy==2.1.1
+Pillow==10.1.0
+Pillow==10.4.0
+PuLP==2.8.0

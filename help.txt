@@ -1,0 +1,43 @@
+                      _        _           
+                     | |      | |          
+  _ __ ___   __ _  __| | ___  | |__  _   _ 
+ | '_ ` _ \ / _` |/ _` |/ _ \ | '_ \| | | |
+ | | | | | | (_| | (_| |  __/ | |_) | |_| |
+ |_| |_| |_|\__,_|\__,_|\___| |_.__/ \__, |
+                                      __/ |
+                                     |___/ 
+                                                                      
+ 88888888ba      db         888b      88    ,ad8888ba,     ad88888ba   
+ 88      "8b    d88b        8888b     88   d8"'    `"8b   d8"     "8b  
+ 88      ,8P   d8'`8b       88 `8b    88  d8'        `8b  Y8,          
+ 88aaaaaa8P'  d8'  `8b      88  `8b   88  88          88  `Y8aaaaa,    
+ 88""""""'   d8YaaaaY8b     88   `8b  88  88          88    `"""""8b,  
+ 88         d8""""""""8b    88    `8b 88  Y8,        ,8P          `8b  
+ 88        d8'        `8b   88     `8888   Y8a.    .a8P   Y8a     a8P  
+ 88       d8'          `8b  88      `888    `"Y8888Y"'     "Y88888P"   
+                                                                                                                                                                             
+----------------------------------------------
+
+ETERNITY II PUZZLE SOLVER - Using MILP model
+
+I suppose you are here because you need help. Read carefully below.
+
+1. Select the txt file for the pieces data. Click the 'Browse' button and select a file
+from one of the pieces_set folders, or use one of your own.
+
+2. Optional. If you want to add hint pieces, select the txt file for the hint pieces data.
+Click the 'Browse' button and select a file from the hints folder, or use one of your own.
+
+3. Optional. Set solver time limit in seconds. Enter a positive number in the entry field if
+you want the solver to stop after a certain time limit and save the best solution so far.
+
+4. Click the 'Calculate' button to calculate the solution of the puzzle. When the best solution
+is found or after the time limit has passed, the solution will be displayed in the solution board.
+
+5. Optional. If you want to view the positions and rotations of all the pieces in the solution,
+click the "View positions and rotations" button.
+
+6. Optional. If you want to test other puzzles or cases, click the 'Reset' button.
+
+7. Optional. If you want to contact or support the creator of this program, click the 'Creator'
+link to visit his GitHub profile.

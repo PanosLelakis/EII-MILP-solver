@@ -1,0 +1,15 @@
+Total number of placed pieces : 16
+
+  Table with all pieces :
+
+         1    2    3    4
+
+   1     2    7    4    0
+   2     5   12   13    6
+   3    10   15   14    8
+   4     1   11    9    3
+
+   Shared edges :      22
+   Bad edges    :      2
+
+   Time to solve the puzzle: 2.15 seconds
