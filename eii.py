@@ -373,7 +373,8 @@ class EternityIISolverGUI:
         print(f"Time to solve the puzzle: {solving_time:.2f} seconds")
 
         # After solving, calculate shared and bad edges, and percent matched
-        if prob:
+        # Only process a feasible integer solution returned by the solver
+        if prob.sol_status in (pulp.LpSolutionOptimal, pulp.LpSolutionIntegerFeasible):
             solution = self.extract_solution(prob)
             shared_edges, bad_edges = self.calculate_edges(solution, pieces_data, n, m)
             total_edges = (n * (m - 1)) + ((n - 1) * m)  # Total internal edges
@@ -395,7 +396,7 @@ class EternityIISolverGUI:
                 name_parts = clean_name.split(",")
                 try:
                     t, r, c, a = map(int, name_parts)  # Convert to integers
-                    if v.varValue == 1:  # If this variable is set to 1
+                    if v.varValue is not None and v.varValue > 0.5:  # Selected binary variable
                         solution[(t, r, c, a)] = 1
                 except ValueError:
                     print(f"Error parsing variable name: {v.name}")
